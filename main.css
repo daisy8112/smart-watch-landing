@@ -572,16 +572,19 @@ hr {
         padding: 20px 0;
         flex-direction: column;
         gap: 10px;
+      
     }
 
     .sports_item {
         width: 100%;
+        
     }
 
     .second_box {
         width: 100%;
         gap: 10px;
         display: flex;
+       
     }
 
     .health_monitoring {
@@ -601,7 +604,11 @@ hr {
     .monitoring img {
         width: 100%;
     }
-
+.health_monitoring_read_more{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
     .monitoring_list {
         width: 100%;
         display: flex;
@@ -674,37 +681,35 @@ hr {
         padding: 20px 0;
     }
 
+
     .footer_menu {
-        width: 30%;
+        margin-right:0;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
+    
     .socials {
         display: flex;
-        justify-content: space-between
+        justify-content: space-between;
     }
 
-    .socials>img {
-        width: 15%;
-    }
 
     .socials_list {
-        width: 30%;
+        width:auto;
+         margin-left:0;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 5px;
+      
     }
-
-    .socials_list li a {
-        display: flex;
-        gap: 5px;
-    }
+    
+   
 
     .socials_list li span {
-        display: inline;
+        display: block;
+        margin-left:5px;
 
     }
 
@@ -716,5 +721,26 @@ hr {
         width: 100%;
         margin: 0
     }
+
+
+ 
+
+}
+
+
+@media (max-width:493px){
+   
+
+    .first_box{
+    width: 100%;
+}
+.second_box{
+     flex-direction: column;
+        align-items: center;
+}
+       
+
+
+
 
 }
